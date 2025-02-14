@@ -17,7 +17,7 @@ form.addEventListener('submit', searchForLocation);
 
 let target = 'Austin';
 const fetchResults = async (targetLocation) => {
-    let url = `http://localhost:5000/weather?location=${targetLocation}`;
+    let url = `https://weatherapp-vmko.onrender.comlocation=${targetLocation}`;
     const res = await fetch(url);
     const data = await res.json();
     console.log(data);
