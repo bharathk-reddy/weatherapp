@@ -1,0 +1,2 @@
+ # Git ignore file to prevent sensitive data from being tracked
+ .env
